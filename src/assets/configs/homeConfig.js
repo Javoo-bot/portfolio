@@ -35,7 +35,7 @@ const homeConfig = {
             company: "Ewala IT Services",
             description: "Building data pipelines and dashboards for security monitoring. " +
                 "Achieved 40% faster compliance reviews through process automation.",
-            date: "2025-Present",
+            date: "2024-Present",
             icon: <BiShield/>,
             tags: ["python", "powerbi", "cybersecurity"]
         },
