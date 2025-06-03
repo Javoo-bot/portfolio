@@ -14,7 +14,7 @@ const footerConfig = {
         },
         {
             id: "footer-1",
-            url: "https://linkedin.com/in/javier-lobato",
+            url: "https://www.linkedin.com/in/javier-lobato-menendez-19ba1a236/",
             className: "social-icon",
             target: "_blank",
             icon: <FaLinkedinIn size={50}/>
