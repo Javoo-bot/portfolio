@@ -1,81 +1,72 @@
 import React from 'react'
-import {BsClipboardData} from "react-icons/bs";
-import {DiCodeigniter} from "react-icons/di";
-import {GiCommercialAirplane} from "react-icons/gi";
-import {FaMobileAlt} from "react-icons/fa";
-import { BiRocket } from "react-icons/bi";
+import {BsBank, BsShieldLock} from "react-icons/bs";
+import {FaGraduationCap} from "react-icons/fa";
+import {BiShield} from "react-icons/bi";
 
 const homeConfig = {
-
     greeting:
         <h1 className="heading">
             Hi! I'm <strong className="main-name"> Javier Lobato</strong>
         </h1>,
     titles: [
-        "A Data Scientist",
-        "A Machine Learning Specialist",
-        "An Open Source Contributor",
-        "A Backend Developer",
-        "A Colombian"
+        "Data Analyst",
+        "Python Developer",
+        "Cybersecurity Enthusiast"
     ],
     about: {
-        start: "I've been working for over nine years on data science projects. " +
-            "I'm excited by learning new things, contributing to the data science community," +
-            " and spreading the word of data!",
-        exit: "I'm fluent at Python, SQL databases, BI tools, and more, " +
-            "with a deep interest in machine learning."
+        start: "Data Analyst with strong Python skills and banking sector experience. " +
+            "Specialized in creating insightful dashboards and automating data processes.",
+        exit: "Currently expanding into cybersecurity to combine data analytics with " +
+            "financial security expertise."
     },
     workTimeline: [
         {
-            id: "work-4",
-            title: "Sr ML Engineer",
-            company: "EPAM",
-            description: "Working to build scalable ML solutions, LLM's, and RAG architectures.",
-            date: "2023-Present",
-            icon: <BiRocket/>,
-            tags: ["ml", "mlops", "python", "azure", "llm", "automl"]
-        },
-        {
-            id: "work-3",
-            title: "Sr Data Scientist",
-            company: "Globant",
-            description: "Build AutoML models and make them available to non-technical " +
-                "users from a graphical interface.",
-            date: "2021-2023",
-            icon: <DiCodeigniter/>,
-            tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
+            id: "edu-2",
+            title: "Master in Cybersecurity",
+            company: "Universidad Oberta de Cataluña",
+            description: "Focus on banking security and threat prevention.",
+            date: "Starting September 2025",
+            icon: <BsShieldLock/>,
+            tags: ["cybersecurity", "security-analytics"]
         },
         {
             id: "work-2",
-            title: "BI Manager",
-            company: "Rappi",
-            description: "Leading a team of analysts and data scientists to execute different projects, " +
-                "including the construction of ETLs, data lakes, data warehouses, and machine learning models.",
-            date: "2019-2021",
-            icon: <FaMobileAlt/>,
-            tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
+            title: "Data Analyst",
+            company: "Ewala IT Services",
+            description: "Building data pipelines and dashboards for security monitoring. " +
+                "Achieved 40% faster compliance reviews through process automation.",
+            date: "2025-Present",
+            icon: <BiShield/>,
+            tags: ["python", "powerbi", "cybersecurity"]
+        },
+        {
+            id: "edu-1",
+            title: "Master in Data Analysis",
+            company: "University of Oviedo",
+            description: "Specialized in data analysis and machine learning.",
+            date: "2023-2025",
+            icon: <FaGraduationCap/>,
+            tags: ["data-analysis", "machine-learning"]
         },
         {
             id: "work-1",
-            title: "CRM Analytics Coordinator",
-            company: "Avianca",
-            description: "Tech leader of a BI, Data Science and DBA team. " +
-                "Build forecast models, data warehouse and Power BI dashboards.",
-            date: "2018-2019",
-            icon: <GiCommercialAirplane/>,
-            tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
+            title: "Bank Counter Clerk",
+            company: "Caja Rural Bank",
+            description: "Handled financial operations and database maintenance while ensuring regulatory compliance.",
+            date: "2023-2024",
+            icon: <BsBank/>,
+            tags: ["finance", "database"]
         },
         {
-            id: "work-0",
-            title: "BI Analyst",
-            company: "Onelink BPO",
-            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
-            date: "2016-2018",
-            icon: <BsClipboardData/>,
-            tags: ["python", "mssql", "pbi", "excel"]
+            id: "edu-0",
+            title: "Bachelor in Economics & Philosophy",
+            company: "University of Oviedo & Aberdeen",
+            description: "Double degree with international experience.",
+            date: "2015-2023",
+            icon: <FaGraduationCap/>,
+            tags: ["economics", "critical-thinking"]
         }
     ]
 }
-
 
 export default homeConfig

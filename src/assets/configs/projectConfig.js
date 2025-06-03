@@ -25,7 +25,7 @@ const projectConfig = [
                 icon: <AiFillEye/>
             }
         ],
-        image: "path/to/neurobank-preview.png", // You'll need to add your project preview image
+        image: require("../images/neurobank-preview.png"),
         description: "Advanced real-time fraud detection system leveraging machine learning and neural networks for enhanced banking security monitoring.",
         target: "_blank"
     },
@@ -49,7 +49,7 @@ const projectConfig = [
                 icon: <AiFillEye/>
             }
         ],
-        image: "path/to/alertium-preview.png", // You'll need to add your project preview image
+        image: require("../images/alertium-preview.png"),
         description: "Modular server implementation for handling MCP (Monitoring Control Protocol) with advanced alerting capabilities.",
         target: "_blank"
     },
@@ -73,7 +73,7 @@ const projectConfig = [
                 icon: <AiFillEye/>
             }
         ],
-        image: "path/to/crewai-preview.png", // You'll need to add your project preview image
+        image: require("../images/crewai-preview.png"),
         description: "An innovative agentic flow system designed to automate penetration testing actions using AI agents.",
         target: "_blank"
     }
